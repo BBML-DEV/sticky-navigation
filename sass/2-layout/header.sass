@@ -1,0 +1,45 @@
+@use '../1-base/variables'
+
+.header
+    background-color: variables.$dark-color
+    padding: 1.5rem 0rem
+
+    &__container
+        width: variables.$container-size
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        &--brand
+            span
+                font-size: 2rem
+                font-weight: bold
+
+        &--nav
+            ul
+                display: flex
+                
+                li
+                    margin-right: 1rem
+
+                    a
+                        font-size: 1.1rem
+
+                    .selected
+                        color: variables.$orange-color
+
+//classe que vai ser adicionada ao evento de dropdown da página
+.light-header
+    background-color: variables.$white-color
+    padding: 1rem 0rem
+    color: variables.$dark-color
+    transition: .5s
+
+    a
+        color: variables.$dark-color
+
+        &:hover
+            color: variables.$orange-color
+
+            

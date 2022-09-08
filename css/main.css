@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 a {
   text-decoration: none;
   color: #FFF;
@@ -24,6 +28,47 @@ p {
 
 span {
   font-size: 1.5rem;
+}
+
+.header {
+  background-color: #222;
+  padding: 1.5rem 0rem;
+}
+.header__container {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__container--brand span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.header__container--nav ul {
+  display: flex;
+}
+.header__container--nav ul li {
+  margin-right: 1rem;
+}
+.header__container--nav ul li a {
+  font-size: 1.1rem;
+}
+.header__container--nav ul li .selected {
+  color: #C0392B;
+}
+
+.light-header {
+  background-color: #FFF;
+  padding: 1rem 0rem;
+  color: #222;
+  transition: 0.5s;
+}
+.light-header a {
+  color: #222;
+}
+.light-header a:hover {
+  color: #C0392B;
 }
 
 /*# sourceMappingURL=main.css.map */
