@@ -33,6 +33,8 @@ span {
 .header {
   background-color: #222;
   padding: 1.5rem 0rem;
+  position: fixed;
+  width: 100%;
 }
 .header__container {
   width: 1024px;
@@ -42,11 +44,14 @@ span {
   align-items: center;
 }
 .header__container--brand span {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 .header__container--nav ul {
   display: flex;
+}
+.header__container--nav ul li:last-child {
+  margin-right: 0rem;
 }
 .header__container--nav ul li {
   margin-right: 1rem;
@@ -69,6 +74,33 @@ span {
 }
 .light-header a:hover {
   color: #C0392B;
+}
+
+.banner {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.banner__container {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.banner__container--title {
+  font-size: 2.8rem;
+  color: #FFF;
+}
+.banner__container--text {
+  font-size: 1.25rem;
+  color: #FFF;
 }
 
 /*# sourceMappingURL=main.css.map */
