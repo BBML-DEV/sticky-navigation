@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Sticky Navigation</title>
 </head>
-    <body>
+    <body id="body">
+        
         <!--header-->
-        <header class="header">
+        <header class="header" id="cabecalho">
             <div class="header__container">
                 <a href="#" class="header__container--brand">
                     <span>My Website</span>
@@ -40,12 +41,14 @@
         </header>
 
         <!--banner-->
-        <section class="banner overlay">
-            <div class="banner__container">
-                <h1 class="banner__container--title">Welcome To My Website</h1>
-                <p class="banner__container--text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Maiores, consequuntur?</p>
-            </div>
-        </section>
+        <div class="overlay"> 
+            <section class="banner">
+                <div class="banner__container">
+                    <h1 class="banner__container--title">Welcome To My Website</h1>
+                    <p class="banner__container--text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Maiores, consequuntur?</p>
+                </div>
+            </section>
+         </div>
 
         <!--main content-->
         <main class="main">
@@ -62,5 +65,6 @@
             </div>
         </main>
 
+        <script src="js/script.js"></script>
     </body>
 </html>

@@ -8,6 +8,8 @@
     height: 100vh
     display: flex
     align-items: center
+    position: relative
+    z-index: -2
     
     &__container
         margin: 0 auto
@@ -25,6 +27,13 @@
         &--text
             font-size: 1.25rem
             color: variables.$white-color
+
+.overlay
+    background-color: rgba(0, 0, 0, 0.5)
+    height: 100%
+    width: 100%
+    z-index: -1
+
 
 
 

@@ -85,6 +85,8 @@ span {
   height: 100vh;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: -2;
 }
 .banner__container {
   margin: 0 auto;
@@ -102,6 +104,13 @@ span {
 .banner__container--text {
   font-size: 1.25rem;
   color: #FFF;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
 
 .main {
