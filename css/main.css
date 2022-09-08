@@ -12,6 +12,7 @@ a {
   text-decoration: none;
   color: #FFF;
   font-size: 1rem;
+  transition: 0.5s;
 }
 a:hover {
   color: #C0392B;
@@ -101,6 +102,29 @@ span {
 .banner__container--text {
   font-size: 1.25rem;
   color: #FFF;
+}
+
+.main {
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+}
+.main__content {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+.main__content--card {
+  padding: 1.5rem;
+}
+.main__content--card .card__title {
+  font-size: 1.5rem;
+}
+.main__content--card .card__text {
+  font-size: 1rem;
+  padding-top: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

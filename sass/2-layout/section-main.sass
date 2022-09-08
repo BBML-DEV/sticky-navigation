@@ -1,0 +1,23 @@
+@use '../1-base/variables'
+
+.main
+    background-color: variables.$white-color
+    display: flex
+    align-items: center
+
+    &__content
+        width: variables.$container-size
+        margin: 0 auto
+        padding: 2rem 0rem
+        display: flex
+        flex-direction: column
+
+        &--card
+            padding: 1.5rem
+
+            .card__title
+                font-size: 1.5rem
+                
+            .card__text
+                font-size: 1rem
+                padding-top: 1rem
