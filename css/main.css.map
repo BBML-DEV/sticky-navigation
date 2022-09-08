@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/1-base/reset.sass","../sass/1-base/variables.sass"],"names":[],"mappings":"AAEA;EACI;EACA;EACA;;;AAEJ;EACI;EACA,OCRU;EDSV;;AAEA;EACI,OCTO;;;ADWf;EACI;;;AAEJ;EACI,OCjBe;EDkBf;;;AAEJ;EACI","file":"main.css"}
